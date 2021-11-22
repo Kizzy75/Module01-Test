@@ -1,9 +1,21 @@
 p{
     color: black;
     font-size: large;
+    font-weight: bold;
+}
+q{
+    background-color: lightsalmon;
 }
 ul{
     font-style:italic;
     color: darkgreen;
     font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    font-size: medium;
+    transition: .40s ease;
+}
+.link:hover{   
+    font-weight: bold;
+    color: maroon;
 }
