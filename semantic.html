@@ -14,6 +14,9 @@
         .logo {
             margin-right: 50px;
             text-decoration: none;
+            color: black;
+            background-color: rgba(214, 16, 198, 0.37);
+            font-weight: bold;
         }
         ul {
             display: flex;
@@ -34,64 +37,58 @@
             border-right: 1px solid #000;
             padding-right: 20px;
         }
-        .text {
-            color: blue;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-style:oblique;
-        }
-        .post {
-            padding-bottom: 20px;
-        }
     </style>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <a href="#" class="logo">LOGO</a>
+        <nav class="nav">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-    </div>
+        </nav>
+    </header>
     <div class="box">
-        <div class="aside">
+        <aside class="aside">
             <h3>Последний пост Telegram:</h3>
-            <p class="text">
+            <p>
                 Все программисты скоро будут кодить на iPad с веб-версией Visual Studio Code.
             </p>
-            <p class="text">
+            <p>
                 Если интересно, как это будет, то смотри видео-обзор на приложение, которое я потестировала с планшета и ноутбука.
             </p>
             <a href="#">Перейти на канал</a>
-        </div>
-        <div>
+        </aside>
+        <main class="main">
             <h1>Результаты поиска по слову "вёрстка"</h1>
-            <div>
+            <section>
                 <h3>Вёрстка сайтов под ключ</h3>
                 <p>Мы создаем сайты за 1 месяц и дарим логотип в подарок <a href="#">Далее</a></p>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h3>Научись верстать сайты быстро!</h3>
                 <p>Подробный обучающий курс для новичков. Учим за 3 месяца. <a href="#">Далее</a></p>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h3>Отмечаем ровно один год!</h3>
                 <p>Наша школа за этот год обучила вёрстке уже 1000 студентов! <a href="#">Далее</a></p>
-            </div>
+            </section>
             <hr>
             <h2>Полезная статья:</h2>
-            <div class="post">
+            <section>
                 <p>
                     Всем привет, меня зовут Анна Блок, и эта статья будет посвящена довольно «острой» теме, которая связана с позиционированием элементов. Мы поговорим о таком свойстве как position и его значениях: relative, absolute и fixed. Также мы поговорим о таком значении как static, но по большей степени нас будет интересовать именно первая «троица», так как она чаще всего используется на сайтах.
                 </p>
                 <a href="#">Читать далее</a>
-            </div>
-        </div>
+            </section>
+        </main>
     </div>
     
-    <div>
+    <footer class="footer">
         <p>&copy; Обучение по профессии Верстальщик от Annblok</p>
-    </div>
+    </footer>
 </body>
 </html>
