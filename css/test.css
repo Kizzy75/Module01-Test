@@ -44,6 +44,12 @@ section {
     padding: 5px 20px;
     margin-bottom: 20px;
 }
+.link {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    background: rebeccapurple;
+    color: white;
+}
 footer {
     font-weight: 13px;
 }
@@ -51,4 +57,7 @@ a {
     font-weight: 700;
     color: rebeccapurple;
     text-decoration: none;
+}
+ul>li:last-child {
+    margin-right: 0;
 }
