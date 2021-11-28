@@ -1,20 +1,22 @@
-body{
+body {
     line-height: 1.5;
 }
 .header {
     display: flex;
+    font-size: 20px;
+    align-items: center;
     border-bottom: 1px solid #000;
-    padding-bottom: 10px;
-    font-weight: 20px;
+    padding: 10px 20px;
 }
 .logo {
     margin-right: 50px;
+    padding: 5px 15px;
     text-decoration: none;
     color: lightgreen;
     background-color: rebeccapurple;
     font-weight: 700;
 }
-h1, h2, h3{
+h1, h2, h3 {
     text-transform: uppercase;
     line-height: 0.5;
 }
@@ -33,14 +35,19 @@ ul > li {
     gap: 20px;
     border-bottom: 1px solid #000;
 }
-.aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
+aside {
+    background: lavender;
+    padding: 10px 20px;
 }
-footer{
+section {
+    background: lavender;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+footer {
     font-weight: 13px;
 }
-a{
+a {
     font-weight: 700;
     color: rebeccapurple;
     text-decoration: none;
